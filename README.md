@@ -7,3 +7,7 @@ As you know using the CMD command the Console Prompt app is launched by default,
 :bangbang: **<span style="color:red">IMPORTANT:</span> this option is available only for PCs with Windows 11 operating system installed**
 
 ![](/img/TerminalSettings.png)
+
+Setup last stable version of PowerShell using Store:
+
+![](/img/PowerShell_setup.png)
