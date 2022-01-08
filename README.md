@@ -102,6 +102,9 @@ also you may improve this flow with next JSON example:
 ## Tune a font
 <p>
 
-for customizing terminal font we will use the [NerdFonts](http://nerdfonts.com)
+for customizing terminal font we will use the [NerdFonts](http://nerdfonts.com),
+click Download section and find/navigate to _Caskaydia Cove Nerd Font_, please download it and unzip.
 
 </p>
+
+![](/img/CaskaydiaCoveNerdFont.png)
