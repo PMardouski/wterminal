@@ -123,3 +123,12 @@ However, you may figure out that font is displyed incorrect with encoding charac
 Open Terminal settings, navigate to `PowerShell/Appearance/Font` and find `CascaydiaCove NF`, save changes:
 
 ![](/img/ChangeTerminalFont.png)
+
+each time when we execute `oh-my-posh.exe` command the OhMyPosh will runs, and what we want to do is teach PowerShell how to use oh-my-posh.exe in to print out the promt rather than the default, so we're going to change that promt again this will work on anything that can output an executable or run an executable every time you push you vsn push enter.
+Now PowerShell has a profile, so you could run notepad `notepad $profile` then use command `echo $PROFILE` after executing this command you should see full path to file profile `Microsoft.PowerShell_profile.ps1`.
+
+<p>
+in my local machine the full path to profile looks like:
+</p>
+
+`C:\Users\Pavel\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
