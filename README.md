@@ -108,3 +108,18 @@ click Download section and find/navigate to _Caskaydia Cove Nerd Font_, please d
 </p>
 
 ![](/img/CaskaydiaCoveNerdFont.png)
+
+aftar that copy all files and paset to `C:\Windows\Fonts`
+
+then go to site [OhmyPosh](https://ohmyposh.dev/docs/windows) and following the instraction on the page settup OhMyPosh or use next solution:
+
+- use command to install OhMyPosh `winget install JanDeDobbeleer.OhMyPosh`
+- restart terminal and use `oh-my-posh.exe` as command to verify that OhMyPosh is working
+
+However, you may figure out that font is displyed incorrect with encoding characters like on screen beow:
+
+![](/img/OhMyPosh_first_run.png)
+
+Open Terminal settings, navigate to `PowerShell/Appearance/Font` and find `CascaydiaCove NF`, save changes:
+
+![](/img/ChangeTerminalFont.png)
