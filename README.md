@@ -132,3 +132,21 @@ in my local machine the full path to profile looks like:
 </p>
 
 `C:\Users\Pavel\Documents\PowerShell\Microsoft.PowerShell_profile.ps1`
+
+and open profile file in VS Code, also you may install a PowerShell plugin if needed.
+
+Copy and Paste the next command:
+
+`oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression`
+
+## Install Github CLI
+
+for the installation of Github CLI, please use next command:
+
+`winget install Github.cli --source winget`
+
+**NOTE:** to verify if the CLI successfully installed, execute command: `gh`
+
+then, you can login to the github using a command:
+
+`gh auth login`
