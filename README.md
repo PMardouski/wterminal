@@ -60,7 +60,7 @@ Setup last stable version of PowerShell using Store:
 
 `wsl --install`
 
-### Setup linux 'Ubuntu'
+### Setup linux 'Ubuntu' (optional)
 
 ![](/img/SetupLinuxUbuntu.png)
 
@@ -150,3 +150,29 @@ for the installation of Github CLI, please use next command:
 then, you can login to the github using a command:
 
 `gh auth login`
+
+and now you can use a `gh repo clone your_accaunt_name\repo_name` command
+
+### Apply OhMyPosh custom theme
+
+you may download a customized file using this file [oh-my-posh-custom](src/ohmyposhv3.json), store to your local directory OR copy past to `C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes`
+
+and then you can specify a root path to necessary theme like on the example below:
+
+`oh-my-posh --init --shell pwsh --config C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes\ohmyposhv3-v2.json | Invoke-Expression`
+
+for the VS Code change font settings:
+
+```json
+"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font"
+```
+
+### Turn your PowerShell DIRECTORIES Up to 11 with TERMINAL-ICONS
+
+Is your prompt not extra enough? That's because your directory listing needs color AND cool icons!
+
+`Install-Module -Name Terminal-Icons -Repository PSGallery`
+
+And then add one line to my $profile (edit with "code $profile"):
+
+`Import-Module -Name Terminal-Icons`
