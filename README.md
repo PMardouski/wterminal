@@ -176,3 +176,18 @@ Is your prompt not extra enough? That's because your directory listing needs col
 And then add one line to my $profile (edit with "code $profile"):
 
 `Import-Module -Name Terminal-Icons`
+
+
+In case of an issue related to PSReadline, needs to install last one
+[PSReadLine Install from PowerShellGallery](https://github.com/PowerShell/PSReadLine#install-from-powershellgallery-preferred)
+
+`Install-Module PSReadLine -RequiredVersion 2.2.0-beta1* -AllowPrerelease`
+
+Another fantastic utility is simply called **Z** [PowerShell](https://github.com/vincpa/z).
+`Install-Module z -AllowClobber`
+
+Then just add `Import-Module z` to the end of your Profile, usually at `$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+
+[Original video on Youtube](https://www.youtube.com/watch?v=VT2L1SXFq9U&t=9s&ab_channel=ScottHanselman)
+
+[Scott Hanselman web-site](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)
