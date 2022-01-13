@@ -155,7 +155,7 @@ and now you can use a `gh repo clone your_accaunt_name\repo_name` command
 
 ### Apply OhMyPosh custom theme
 
-you may download a customized file using this file [oh-my-posh-custom](src/ohmyposhv3.json), store to your local directory OR copy past to `C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes`
+you may download a customized file using this file [oh-my-posh-custom](/src/ohmyposhv3.json), store to your local directory OR copy past to `C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes`
 
 and then you can specify a root path to necessary theme like on the example below:
 
@@ -189,6 +189,10 @@ Another fantastic utility is simply called **Z** [PowerShell](https://github.com
 
 Then just add `Import-Module z` to the end of your Profile, usually at `$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
 
+Full settings.json file you may finde [here](/src/settings.json).
+
 [Original video on Youtube](https://www.youtube.com/watch?v=VT2L1SXFq9U&t=9s&ab_channel=ScottHanselman)
 
 [Scott Hanselman web-site](https://www.hanselman.com/blog/my-ultimate-powershell-prompt-with-oh-my-posh-and-the-windows-terminal)
+
+[Improve Terminal styling](https://www.youtube.com/watch?v=FC-gLkYWXLw&ab_channel=ScottHanselman)
