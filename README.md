@@ -184,6 +184,7 @@ In case of an issue related to PSReadline, needs to install last one
 `Install-Module PSReadLine -RequiredVersion 2.2.0-beta1* -AllowPrerelease`
 
 Another fantastic utility is simply called **Z** [PowerShell](https://github.com/vincpa/z).
+
 `Install-Module z -AllowClobber`
 
 Then just add `Import-Module z` to the end of your Profile, usually at `$env:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
