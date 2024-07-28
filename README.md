@@ -155,11 +155,11 @@ and now you can use a `gh repo clone your_accaunt_name\repo_name` command
 
 ### Apply OhMyPosh custom theme
 
-you may download a customized file using this file [oh-my-posh-custom](/src/ohmyposhv3.json), store to your local directory OR copy past to `C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes`
+you may download a customized file using this file [oh-my-posh-custom](/src/ohmyposhv3.json), store to your local directory OR copy past to `C:\Users\{user_name}\AppData\Local\Programs\oh-my-posh\themes`
 
 and then you can specify a root path to necessary theme like on the example below:
 
-`oh-my-posh --init --shell pwsh --config C:\Users\Pavel\AppData\Local\Programs\oh-my-posh\themes\ohmyposhv3-v2.json | Invoke-Expression`
+`oh-my-posh --init --shell pwsh --config C:\Users\{user_name}\AppData\Local\Programs\oh-my-posh\themes\ohmyposhv3-v2.json | Invoke-Expression`
 
 for the VS Code change font settings:
 
